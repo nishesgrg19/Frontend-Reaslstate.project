@@ -1,0 +1,29 @@
+.card{ border: 1px solid;
+    padding:7px;
+    box-shadow: 3px 7px;}
+.head{position: relative;}
+.head::before{content: ""; position: absolute;background-image: url("ok.jpg"); top: 0;left: 0;right: 0;bottom: 0;opacity: 0.5;}
+.row4{position: relative;}
+.b{font-weight: bolder;}
+
+
+.section1{background-repeat: no-repeat;
+    width: 100%;
+    background-image: url('ok2.jpg');
+    position: relative;
+    background-size: cover;height: 100%;
+    background-position: bottom;
+ 
+    
+   }
+.section1:hover{opacity: 0.5;transition: 1s;background-color:gainsboro;}
+.okb h1{color: #FFF;font-weight: bolder;} 
+.okt{color: #FFF;;}
+.buttonl{border-radius: 8px;}
+.footer{background-color: lightgray;}
+footer .btn-success{text-decoration: none;}
+.stuck{position: fixed;top: 0;left: 0;z-index: 5;right: 0;transition: 1s;padding: 20px;}
+
+@media (max-width:700px){
+    .card img{height:130px}
+}
